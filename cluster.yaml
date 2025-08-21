@@ -1,3 +1,4 @@
+---
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
@@ -16,7 +17,7 @@ spec:
   interval: 1m0s
   values:
     global:
-      clusterName: 1111-workshop-00
+      clusterName: 1111-workshop-13
     flux:
       gitRepositories:
         main:
