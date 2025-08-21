@@ -16,7 +16,7 @@ spec:
   interval: 1m0s
   values:
     global:
-      clusterName: 1111-workshop-13
+      clusterName: 1111-workshop-00
     flux:
       gitRepositories:
         main:
